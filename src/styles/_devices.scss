@@ -1,0 +1,77 @@
+@media screen and (max-width: 768px) {
+    .experience {height: 160px;}
+    .fixedBackground {height: 1500px;background-position: top;background-size: 115%;}
+    .fixedBackground2 {height: 535px;background-position: bottom;background-size: 100%;}
+    .inspired {margin-top: 70px;}
+    .gallery {height: auto;display: block;grid-template-columns: 100%;grid-template-rows: 100%;}
+    .gallery img {width: 147px;margin-left: 5.5px;}
+    .contact {grid-template-columns: 10% 90%;}
+    .contact_first_container {display: block;}
+    .contact_first_container {overflow: hidden;
+    
+    #small_text {transform: translateY(0px);}
+    #first_name_text {transform: translateY(16px);}
+    #first_name_field {transform: translateY(18px);}
+    #last_name_text {transform: translate(167px, -37px);}
+    #last_name_field {transform: translate(167px, -35px);}
+    #email_text {transform: translateY(-23px);}
+    #email_field {transform: translateY(-21px);}
+    .contact_send_btn {transform: translateY(-12px);}
+    }
+    
+   
+}
+
+@media screen and (max-width: 768px) and (max-height: 646px) {
+
+    .experience {height: 160px;}
+    .fixedBackground {height: 1500px;background-position: top;background-size: 115%;}
+    .fixedBackground2 {height: 535px;background-position: bottom;background-size: 100%;}
+    .inspired {margin-top: 70px;}
+    .gallery {height: auto;display: block;grid-template-columns: 100%;grid-template-rows: 100%;}
+    .gallery img {width: 147px;margin-left: 5.5px;}
+    .contact {grid-template-columns: 10% 90%;}
+    .contact_first_container {display: block;}
+    .contact_first_container {overflow: hidden;
+    
+    #small_text {transform: translateY(0px);}
+    #first_name_text {transform: translateY(16px);}
+    #first_name_field {transform: translateY(18px);}
+    #last_name_text {transform: translate(167px, -37px);}
+    #last_name_field {transform: translate(167px, -35px);}
+    #email_text {transform: translateY(-23px);}
+    #email_field {transform: translateY(-21px);}
+    .contact_send_btn {transform: translateY(-12px);}
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    .backgroundOverlay h1 {position: absolute;left: 50%; width: 90%; transform: translate(-50%, 170px);font-size: 55px;}
+    .overlay_text {transform: translateY(357px);position: absolute;}
+    .middle_btn {transform: translateY(0px);position: absolute;top: 450px;}
+    .fixedBackground {height: 822px;background-size: 145%;}
+    .fixedBackground2 {background-position: top;}
+}
+
+// iPhone X Portrait in Inspect elements
+@media only screen and (max-width: 375px) and (min-width: 375px) and (max-height: 812px) and (min-height: 812px) {
+    .backgroundvideo {left: -138%;width: 386vw;}
+    .backgroundOverlay h1 {font-size: 40px;}
+    .overlay_text {transform: translateY(307px);}
+    .middle_btn {top: 428px;}
+    .fixedBackground {height: 318px;background-position: center;background-size: 115%;}
+    .product h1 {font-size: 25px;font-size: 25px;text-align: center; transform: translateY(43px);}
+    .product {display: block;height: 595px;}
+    .product p {text-align: center;transform: translateY(43px);}
+    .product img {transform: translateY(12px);}
+    .product .buy_btn {transform: translate(50%, 351px);}
+    .gallery img {width: 179px;}
+    .contact {grid-template-columns: 7% 90%;}
+    }
+    
+
+
+// iPhone X Portrait Safari
+@media only screen and (max-width: 390px) and (min-width: 350px) and (max-height: 650px) and (min-height: 600px) {
+    
+}

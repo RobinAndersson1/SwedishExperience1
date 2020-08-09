@@ -1,0 +1,54 @@
+.backgroundvideo {
+ 
+    position: absolute;
+    top: 0;
+    left: -112%;
+    width: 323vw;
+   
+}
+
+.backgroundOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.4);
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: 100%;
+
+    h1 {
+        color: white;
+        text-align: center;
+        transform: translateY(170px);
+    }
+    p {
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.overlay_text {
+    width: 60%;
+    justify-self: center;
+    transform: translateY(20px);
+    
+}
+.middle_btn {
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    margin: 0;
+    justify-self: center;
+    transform: translateY(-100px);
+    p {
+        color: #630000;
+        margin: 0;
+        text-align: center;
+        transform: translateY(10px);
+    }
+    
+}
