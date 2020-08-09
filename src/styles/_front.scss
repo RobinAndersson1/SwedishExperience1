@@ -109,3 +109,9 @@
 @media screen and (max-width: 950px) {
     .middle_text {width: 335px;}
 }
+@media screen and (max-width: 400px) {
+    .product .middle_text {
+        width: 325px;
+        transform: translate(26px, 37px);
+    }
+}
