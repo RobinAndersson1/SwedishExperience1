@@ -71,7 +71,7 @@ componentDidMount() {
                         <source src={backgroundsvideo} type="video/mp4" />
                     </video>
                     <div className="backgroundOverlay animate__animated animate__fadeIn" style={this.state.blackOverlay}>
-                    <h1>THE SWEDISH <br/>EXPERIENCE1</h1>
+                    <h1>THE SWEDISH <br/>EXPERIENCE</h1>
                     <div className="overlay_text"><p>If you ever been in Sweden during winter times you would have seen candles in almost every window in almost every home.</p></div>
                     
                         <div className="middle_btn"><p className="show_experience">Show the experience</p></div>

@@ -729,6 +729,76 @@
   }
 }
 
+@media only screen and (max-width: 375px) and (min-width: 375px) and (max-height: 560px) and (min-height: 540px) {
+  .backgroundvideo {
+    left: -110%;
+    width: 320vw;
+  }
+  .backgroundOverlay h1 {
+    font-size: 40px;
+    -webkit-transform: translate(-50%, 108px);
+            transform: translate(-50%, 108px);
+  }
+  .overlay_text {
+    -webkit-transform: translateY(262px);
+            transform: translateY(262px);
+    width: 316px;
+  }
+  .middle_btn {
+    top: 368px;
+  }
+  .fixedBackground {
+    display: none;
+  }
+  .fixedBackground2 {
+    display: none;
+  }
+  .product h1 {
+    font-size: 25px;
+    font-size: 25px;
+    text-align: center;
+    -webkit-transform: translateY(43px);
+            transform: translateY(43px);
+  }
+  .product {
+    display: block;
+    height: 595px;
+  }
+  .product p {
+    text-align: center;
+    -webkit-transform: translateY(43px);
+            transform: translateY(43px);
+  }
+  .product img {
+    -webkit-transform: translateY(12px);
+            transform: translateY(12px);
+  }
+  .product .buy_btn {
+    -webkit-transform: translate(50%, 351px);
+            transform: translate(50%, 351px);
+    cursor: pointer;
+  }
+  .gallery img {
+    width: 179px;
+  }
+  .contact {
+    -ms-grid-columns: 7% 90%;
+        grid-template-columns: 7% 90%;
+  }
+  .static_background1 {
+    width: 100%;
+  }
+  .experience h1 {
+    font-size: 38px;
+  }
+  .experience p {
+    font-size: 16px;
+    -webkit-transform: translate(34px, 15px);
+            transform: translate(34px, 15px);
+    width: 300px;
+  }
+}
+
 .container {
   width: 100%;
   height: calc(100vh);

@@ -16,7 +16,9 @@ class FixedBackground2 extends React.Component {
 componentDidMount() {
     console.log(window.innerWidth)
     if (window.innerWidth < 769) {
-    
+        this.setState({
+            backgroundImages: {display:"inherit"}
+        })
     }
     if (window.innerWidth < 376) {
         console.log("iPhoneX")
